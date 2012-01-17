@@ -1,4 +1,3 @@
-Hello
 Getting started with github
 
 mkdir gittest
