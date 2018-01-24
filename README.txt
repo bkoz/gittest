@@ -24,4 +24,19 @@ To git@github.com:bkoz/gittest.git
    c8117df..9729f4a  master -> master
 [koz@courante gittest]$ 
 
+### Migrating a github repo to gitlab
+
+Clone an existing github repo.
+cd <my-repo>
+
+Sign on to gitlab and create a public project with the same name.
+
+Follow command line directions that are displayed for an Existing Git repository
+
+git remote remove origin
+git remote add origin http://minuet.koz.laptop:9180/bkoz/gittest.git
+
+
+
+
 
